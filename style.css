@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.div{
+    background-color: grey;
+    position: relative;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+    
+    
+}
+.responsive{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+      border-top:none ;
+    border-right: none;
+}
+p{
+    padding:20px ;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+/*desktop devise*/
+@media(min-width:992px){
+    .col-md-4{
+        float: left;
+        width:30.55 %;
+        margin-right: 5px;
+    }
+    
+}
+/*tablet device*/
+@media(min-width:768px){
+    .col-sm-4{
+        float: left;
+        width:48%;
+    }
+    .col-sm2-4{
+        clear: both;
+        width: 99%;
+        
+    }
+    .wth{
+        
+        float: right;
+        
+    }
+    
+}
+/*@media(max-width:767){
+    
+}*/
