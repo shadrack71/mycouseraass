@@ -31,4 +31,17 @@ hr{
 h2{
     text-align: center;
     padding-top: 5px;
+}#lg-screen  {
+    margin: 15px;
+
+}
+.list{
+    display: inline;
+    text-align:left;
+    padding: 50px;
+    font-size:20px ;
+    font-weight: bold;
+}
+a{
+    color: black;
 }
